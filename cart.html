@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>AHMED ADEL</title>
+</head>
+<body>
+    <!-- start header -->
+      <section class="header">
+        <nav>
+            <div class="left">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search" >
+            </div>
+            <div>
+                <h1>AHMED ADEL</h1>
+            </div>
+            <div>
+                <ul>
+                    <li><i class="fa-solid fa-user"></i></li>
+                    <li><i class="fa-regular fa-heart"></i></li>
+                    <li>
+                        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <span>2</span>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <hr>
+        <div class="banner">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a><i class="fa-solid fa-angle-down"></i></li>
+                    <li><a href="about.html">About</a><i class="fa-solid fa-angle-down"></i></li>
+                    <li><a class="active" href="shop.html">Shop</a></li>
+                    <li><a href="#">catalogue</a></li>
+                    <li><a href="#">new arrival</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+            <div class="location">
+                <h4><span>Home</span>/ Cart</h4>
+            </div>
+        </div>
+      </section>
+    <!-- end header -->
+
+    <!-- start Cart -->
+    <section class="cart">
+        <div class="container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Image</th>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Amount</th>
+                        <th>Total</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="images/cloth_1.jpg" alt=""></td>
+                        <td>Top Tank Shirt</td>
+                        <td>$50</td>
+                        <td><div class="amount">
+                            <div><i class="fa-solid fa-minus"></i></div>
+                            <input type="number" min="1" max="10" value="1">
+                            <div><i class="fa-solid fa-plus"></i></div>
+                        </div></td>
+                        <td>$50</td>
+                        <td><div><i class="fa-solid fa-x"></i></div></td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/cloth_2.jpg" alt=""></td>
+                        <td>Polo Shirt</td>
+                        <td>$50</td>
+                        <td><div class="amount">
+                            <div><i class="fa-solid fa-minus"></i></div>
+                            <input type="number" min="1" max="10" value="2">
+                            <div><i class="fa-solid fa-plus"></i></div>
+                        </div></td>
+                        <td>$100</td>
+                        <td><div><i class="fa-solid fa-x"></i></div></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="last">
+            <div class="left">
+                <div class="btns">
+                    <a href="" class="btn2">Update Cart</a>
+                    <a href="" class="btn3">Update Cart</a>
+                </div>
+                <h2>Coupon</h2>
+                <form action="">
+                    <label for="">Enter Your Coupon If You Have One</label>
+                    <input type="text" placeholder="Coupon Code">
+                    <a href="" class="btn">Apply Coupon</a>
+                </form>
+            </div>
+            <div class="right">
+                <h1>Cart Total</h1>
+                <hr>
+                <div class="money">
+                    <div>
+                        <p>SubTotal</p>
+                        <p>$150</p>
+                    </div>
+                    <div>
+                        <p>Total</p>
+                        <p>$150</p>
+                    </div>
+                </div>
+                <a href="proceed.html" class="btn4">Proceed To Checkout</a>
+            </div>
+        </div>
+    </section>
+    <!-- end Cart -->
+     <hr>
+
+    <!-- start footer -->
+       <section class="footer">
+        <div class="lists">
+            <ul class="active2">
+                <h1>Navigation</h1>
+                <li><a href="#">Sell Online</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Shopping Cart</a></li>
+                <li><a href="#">Store Builder</a></li>
+            </ul>
+            <ul class="active2">
+                <li><a href="#">Mobile Commerce</a></li>
+                <li><a href="#">Drop Shipping</a></li>
+                <li><a href="#">Website Development</a></li>
+            </ul>
+            <ul class="active2">
+                <li><a href="#">Point Of Sale</a></li>
+                <li><a href="#">Hardware</a></li>
+                <li><a href="#">Software</a></li>
+            </ul>
+            <ul class="active">
+                <h1>Promo</h1>
+                <li><img src="images/hero_1.jpg" alt=""></li>
+                <li><h3>Finding Your Perfect Shoe</h3></li>
+                <li><a>Promo From January 15--25,2019</a></li>
+            </ul>
+            <ul>
+                <h1>Contact Info</h1>
+                <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>203 fake st.mountain view,SanfranCisco,California,USA </p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+20 123456789</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>ahmedsoltan@gmail.com</p>
+                </li>
+                <li>
+                    <form action="">
+                        <h2>Subscribe</h2>
+                        <input type="email" placeholder="Email">
+                        <a href="" class="btn">Send</a>
+                    </form>
+                </li>
+            </ul>
+        </div>
+        <pre>Copyright <i class="fa-regular fa-copyright"></i> 2023 All Right Reversed|This Template Is Made <i class="fa-solid fa-heart"></i> By <span>Ahmed Adel</span></pre>
+       </section>
+    <!-- end footer -->
+
+
+</body>
+</html>
